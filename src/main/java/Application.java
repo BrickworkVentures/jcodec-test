@@ -17,6 +17,7 @@ public class Application {
                 e.printStackTrace(System.out);
             }
         }
+        System.exit(0);
     }
 
     private static void grab(String fileName) throws IOException, JCodecException {
